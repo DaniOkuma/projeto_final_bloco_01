@@ -1,9 +1,7 @@
 package projeto_final_bloco_1;
 
 import java.util.Scanner;
-import projeto_final_bloco_1.model.Cosmeticos;
-import projeto_final_bloco_1.model.Facial;
-import projeto_final_bloco_1.model.Corporal;
+import 
 
 public class Menu {
 
@@ -13,21 +11,15 @@ public class Menu {
 		        
 		     // CosmeticoController cosmeticos = new CosmeticoController();
 		        
-			int  opcao, numero, tipo;
+				int  opcao, numero, tipo;
 				String  nome;
-			float preco;
-				
-				// teste
+				float preco;
 				
 				
-				
-			Facial fac = new Facial (1, 1, "Creme hidratante facial", 10.50f, "Oleosa");
-			fac.visualizar();
-			
-			//produto.cadastrar(fac);
+			//	Facial fac = new Facial (contas.gerarNumero(), 123, 1, "João da Silva", 1000.00f, 100.00f);
+					//produto.cadastrar(fac);
 					
-		   Corporal corp = new Corporal(2, 2, "Creme hidratante corporal", 40.00f, 400);
-		    corp.visualizar();
+			//	Corporal corp = new Corporal(contas.gerarNumero(), 123, 2, "Maria da Silva", 1000.00f, 6);
 					//produto.cadastrar(corp);
 					
 				

@@ -21,12 +21,12 @@ public class Menu {
 				
 				
 				
-			Facial fac = new Facial (1, 1, "Creme hidratante facial", 10.50f, "Oleosa");
+			Cosmeticos fac = new Cosmeticos (1, 1, "Creme hidratante facial", 10.50f, "Oleosa");
 			fac.visualizar();
 			
 			//produto.cadastrar(fac);
 					
-		   Corporal corp = new Corporal(2, 2, "Creme hidratante corporal", 40.00f, 400);
+		   Cosmeticos corp = new Cosmeticos(2, 2, "Creme hidratante corporal", 40.00f, 400);
 		    corp.visualizar();
 					//produto.cadastrar(corp);
 					
